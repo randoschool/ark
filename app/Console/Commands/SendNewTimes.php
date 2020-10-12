@@ -60,7 +60,7 @@ class SendNewTimes extends Command
             }
         });
         if ($times->isNotEmpty()) {
-            Mail::to('test@email.com')->send(new NewAvaliableTimes($times));
+            Mail::to('rando.oispuu@ametikool.ee')->send(new NewAvaliableTimes($times));
         }
         return 0;
     }
