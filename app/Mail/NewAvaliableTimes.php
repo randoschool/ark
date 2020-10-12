@@ -29,6 +29,6 @@ class NewAvaliableTimes extends Mailable
      */
     public function build()
     {
-        return $this->from('ark@itmajakas.ee')->view('times');
+        return $this->from('ark@times.rando.itmajakas.ee')->view('times');
     }
 }
